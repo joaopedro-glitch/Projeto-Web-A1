@@ -191,6 +191,7 @@ form {
   border: 2px solid black;
   border-radius: 10px;
   background-color: bisque;
+  color: #000000;
 }
 label {
   display: block;
@@ -217,7 +218,7 @@ textarea {
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: #4caf50;
-  color: bisque;
+  color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
 }
