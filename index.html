@@ -119,8 +119,9 @@
       </section>
 
       <section id="base">
-        <h1>Formulário de Contato</h1>
+
         <form id="formulario" onsubmit="mostrarDados(event)">
+          <h1>Formulário de Contato:</h1>
           <label for="nome">Nome:</label>
           <input
             type="text"
@@ -162,18 +163,66 @@
           <br />
           <button id="btnform" type="submit">Enviar Mensagem</button>
         </form>
+
+
+        <ol id="lista">
+          <h1>Warcraft Series:</h1>
+          <li>Warcraft: Orcs & Humans</li>
+          <br />
+          <li>
+            Warcraft II
+            <ul>
+              <li>Tides of Darkness</li>
+              <li>Beyond the Dark Portal</li>
+              <li>The Dark Saga</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            Warcraft III
+            <ul>
+              <li>Reign of Chaos</li>
+              <li>The Frozen Throne</li>
+            </ul>
+          </li>
+          <br />
+          <li>World of Warcraft</li>
+        </ol>
       </section>
     </main>
 
-    <footer>
+    <footer id="footer">
       <p>Avaliação de Desenvolvimento de Web Básico A1</p>
-      <p>Estudantes: João Pedro dos Santos e João Paulo Amorin Neves</p>
-      <p>Referencias: <a href="https://www.wowhead.com/classic" target="_blank">wowhead.com</a></p>
-      <p><a href="https://en.wikipedia.org/wiki/World_of_Warcraft_Classic" target="_blank">wikipedia.org</a>  
-        <a href="https://wowwiki-archive.fandom.com/wiki/World_of_Warcraft" target="_blank">fandom.com</a></p>
+      <p>Estudantes: João Pedro dos Santos e João Paulo Amorim Neves</p>
+      <p>
+        Referencias:
+        <a href="https://www.wowhead.com/classic" target="_blank"
+          >wowhead.com</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://en.wikipedia.org/wiki/World_of_Warcraft_Classic"
+          target="_blank"
+          >wikipedia.org</a
+        >
+        <a
+          href="https://wowwiki-archive.fandom.com/wiki/World_of_Warcraft"
+          target="_blank"
+          >fandom.com</a
+        >
+      </p>
       <p>Todos os Direitos reservados ©2024 Blizzard Entertainment, Inc.</p>
-
     </footer>
+
+    <a href="#header">
+      <img
+        id="icontopo"
+        src="./img/circle-chevron-up.png"
+        alt="voltar ao topo"
+        title="voltar ao topo"
+      />
+    </a>
 
     <script src="js/codigo.js"></script>
   </body>
